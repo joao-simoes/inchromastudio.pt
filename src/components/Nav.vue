@@ -148,6 +148,7 @@ a {
   height: 100vh;
   z-index: 100;
   background-color: white;
+  box-shadow: 4px 0px 11px 2px rgba(0,0,0,0.53);
 }
 
 .title {
