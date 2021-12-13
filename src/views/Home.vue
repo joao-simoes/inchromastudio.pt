@@ -23,7 +23,7 @@ export default {
       const h = Array.from(document.querySelectorAll(".pcr"));
       let i = 0;
       var interval = setInterval(() => {
-        h[i].style.opacity = "100%";
+        h[i].style.opacity = "1.0";
         i++;
 
         if (i == 3) clearInterval(interval);
@@ -49,11 +49,11 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 .pcr {
-  opacity: 0%;
+  opacity: 0.0;
   text-shadow: 3px 3px 3px rgba(150, 150, 150, 1);
   font-weight: 800;
   font-size: 150px;

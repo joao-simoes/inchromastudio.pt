@@ -184,7 +184,7 @@ a {
 
 .image-overlay {
   background-color: #202020;
-  opacity: 0%;
+  opacity: 0.0;
   width: 100%;
   height: 100%;
   transition: 0.2s ease-in-out;
@@ -199,7 +199,7 @@ a {
 }
 
 .image-overlay:hover {
-  opacity: 80%;
+  opacity: 0.8;
   transition: 0.2s ease-in-out;
 }
 
