@@ -47,8 +47,6 @@ export default {
 .photo-column img {
   margin-top: 8px;
   vertical-align: middle;
-  min-height: 280px;
-  max-height: 350px;
   object-fit: cover;
   width: 100%;
 }

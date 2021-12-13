@@ -4,23 +4,22 @@
       <div class="row mt-5 pt-4">
         <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3 mt-5">
           <div class="about-us">
-            <h4>O QUE SOMOS?</h4>
-            <p class="mt-3 pb-4">
+            <h4 class="pb-5">O QUE SOMOS?</h4>
+            <p class="pb-2">
               Um estúdio criativo focado na produção fotográfica e videográfica,
               produzindo conteúdo diversificado e dinâmico, para uso pessoal ou
               empresarial.
             </p>
-            <h4 class="mt-5">SOMOS SÓ UM ESTÚDIO?</h4>
-            <p class="mt-3 pb-5">
-              Não, somos muito mais que isso, somos pessoas. Somos amantes de
+            <p class="pb-5">
+              Muito mais que um estúdio, somos pessoas. Somos amantes de
               fotografia analógica, design e cinema, com uma generosa pitada de
               boa música.
             </p>
             <br />
             <hr class="m-5 w-50 mx-auto" />
             <br />
-            <h4 class="mt-5 pb-4">THE CREW</h4>
-            <div class="row mt-5">
+            <h4 class="mt-5 pb-5">THE CREW</h4>
+            <div class="row">
               <div class="col-12 col-md-4 crew text-center">
                 <div class="m-auto">
                   <img src="@/assets/img/crew/sarita.jpg" alt="Sarita Afonso" />
@@ -45,6 +44,7 @@
                   <img
                     src="../assets/img/crew/rodrigo.jpg"
                     alt="Sarita Afonso"
+                    style="object-position: 0px 30px ;"
                   />
                 </div>
                 <h5 class="my-3">Rodrigo Gonçalves</h5>
@@ -57,7 +57,7 @@
               <img
                 src="../assets/img/logo/logoblack.png"
                 alt="inChroma Studio"
-                class="w-50 mt-5 py-5"
+                class="w-50 mt-5 pt-5 logo"
               />
             </div>
           </div>
@@ -84,6 +84,11 @@
   width: 100%;
   height: auto;
   margin-top: -80px;
+}
+
+.logo {
+  width: 30% !important;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -115,6 +120,12 @@
 .about-us p {
   font-size: 1.1rem !important;
   text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+  .logo {
+    width: 50% !important;
+  }
 }
 
 @media only screen and (max-width: 1400px) {

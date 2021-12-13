@@ -3,83 +3,114 @@
     <div class="container-fluid pb-5">
       <div class="row mt-5 pt-4 d-flex justify-content-center">
         <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3 mt-5">
-          <a href="#"><i class="fas fa-backward fa-2x mb-4" v-if="active" @click="active = false"></i></a>
+          <a href="#"
+            ><i
+              class="fas fa-backward fa-2x mb-4"
+              v-if="active"
+              @click="active = false"
+            ></i
+          ></a>
           <div v-if="!active" class="photo-row">
             <div class="photo-column">
+              <a href="#" @click="choose('product', 45)">
+                <div class="position-relative text-center my-2">
+                  <img
+                    src="../assets/img/photography/product/41.jpg"
+                    alt="Product"
+                  />
+                  <div
+                    class="
+                      position-absolute
+                      top-50
+                      start-50
+                      translate-middle
+                      image-overlay
+                    "
+                  >
+                    <h2>Produto</h2>
+                  </div>
+                </div>
+              </a>
+
               <a href="#" @click="choose('food', 29)">
-                <div class="position-relative text-center">
-                  <img src="../assets/img/photography/food/thumb/24.jpg" alt="Food" />
-                  <div class="
+                <div class="position-relative text-center my-2">
+                  <img src="../assets/img/photography/food/10.jpg" alt="Food" />
+                  <div
+                    class="
                       position-absolute
                       top-50
                       start-50
                       translate-middle
                       image-overlay
-                    ">
-                    <h2>Food</h2>
-                  </div>
-                </div>
-              </a>
-
-              <a href="#" @click="choose('lifestyle', 28)">
-                <div class="position-relative text-center">
-                  <img src="../assets/img/photography/lifestyle/thumb/6.jpg" alt="Lifestyle" />
-                  <div class="
-                      position-absolute
-                      top-50
-                      start-50
-                      translate-middle
-                      image-overlay
-                    ">
-                    <h2>Lifestyle</h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="photo-column">
-              <a href="#" @click="choose('architecture', 16)">
-                <div class="position-relative text-center">
-                  <img src="../assets/img/photography/architecture/thumb/16.jpg" alt="Architecture" />
-                  <div class="
-                      position-absolute
-                      top-50
-                      start-50
-                      translate-middle
-                      image-overlay
-                    ">
-                    <h2>Architecture</h2>
+                    "
+                  >
+                    <h2>Comida</h2>
                   </div>
                 </div>
               </a>
 
               <a href="#" @click="choose('portrait', 24)">
-                <div class="position-relative text-center">
-                  <img src="../assets/img/photography/portrait/thumb/3.jpg" alt="Portrait" />
-                  <div class="
+                <div class="position-relative text-center my-2">
+                  <img
+                    style="object-position: 0 -80px"
+                    src="../assets/img/photography/portrait/10.jpg"
+                    alt="Portrait"
+                    class="fixmeplease"
+                  />
+                  <div
+                    class="
                       position-absolute
                       top-50
                       start-50
                       translate-middle
                       image-overlay
-                    ">
-                    <h2>Portrait</h2>
+                    "
+                  >
+                    <h2>Retrato</h2>
                   </div>
                 </div>
               </a>
-            </div>
-            <div class="photo-column">
-              <a href="#" @click="choose('product', 45)">
-                <div class="position-relative text-center">
-                  <img src="../assets/img/photography/product/thumb/18.jpg" alt="Product" />
-                  <div class="
+
+              
+
+              <a href="#" @click="choose('architecture', 16)">
+                <div class="position-relative text-center my-2">
+                  <img
+                    src="../assets/img/photography/architecture/16.jpg"
+                    alt="Architecture"
+                  />
+                  <div
+                    class="
                       position-absolute
                       top-50
                       start-50
                       translate-middle
                       image-overlay
-                    ">
-                    <h2>Product</h2>
+                    "
+                  >
+                    <h2>Arquitetura</h2>
+                  </div>
+                </div>
+              </a>
+
+
+
+              <a href="#" @click="choose('lifestyle', 28)">
+                <div class="position-relative text-center my-2">
+                  <img
+                    src="../assets/img/photography/lifestyle/7.jpg"
+                    alt="Lifestyle"
+                  />
+                  <div
+                    class="
+                      position-absolute
+                      top-50
+                      start-50
+                      translate-middle
+                      image-overlay
+                    "
+                  >
+                    <h2>Lifestyle</h2>
                   </div>
                 </div>
               </a>
@@ -106,28 +137,28 @@
 
 
 <script>
-  import Album from "../components/Album.vue";
+import Album from "../components/Album.vue";
 
-  export default {
-    name: "Photography",
-    components: {
-      Album,
+export default {
+  name: "Photography",
+  components: {
+    Album,
+  },
+  data: () => {
+    return {
+      active: false,
+      chosen: "",
+      amount: 0,
+    };
+  },
+  methods: {
+    choose: function (name, qt) {
+      this.active = true;
+      this.chosen = name;
+      this.amount = qt;
     },
-    data: () => {
-      return {
-        active: false,
-        chosen: "",
-        amount: 0,
-      };
-    },
-    methods: {
-      choose: function (name, qt) {
-        this.active = true;
-        this.chosen = name;
-        this.amount = qt;
-      },
-    },
-  };
+  },
+};
 </script>
 
 
@@ -146,65 +177,72 @@
 
 
 <style scoped>
-  a {
-    color: #202020 !important;
-    text-decoration: none;
+a {
+  color: #202020 !important;
+  text-decoration: none;
+}
+
+.image-overlay {
+  background-color: #202020;
+  opacity: 0%;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+.image-overlay h2 {
+  color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-overlay:hover {
+  opacity: 80%;
+  transition: 0.2s ease-in-out;
+}
+
+.photo-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.photo-column {
+  flex: 100%;
+  max-width: 80%;
+  padding: 0 4px;
+}
+
+.photo-column img {
+  vertical-align: middle;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+
+  h2 {
+    font-size: 35px;
   }
 
-  .image-overlay {
-    background-color: #202020;
-    opacity: 0%;
-    z-index: 100;
-    width: 100%;
-    height: 100%;
-    transition: 0.2s ease-in-out;
+  .photo-column {
+    flex: 50%;
+    max-width: 50%;
   }
 
-  .image-overlay h2 {
-    color: aliceblue;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .fixmeplease {
+    object-position: 0 0 !important;
   }
+}
 
-  .image-overlay:hover {
-    opacity: 80%;
-    transition: 0.2s ease-in-out;
-  }
-
-  .photo-row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-
-  /* Create four equal columns that sits next to each other */
+@media screen and (max-width: 600px) {
   .photo-column {
     flex: 100%;
-    max-width: 50%;
-    padding: 0 4px;
+    max-width: 100%;
   }
-
-  .photo-column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-  }
-
-  @media screen and (max-width: 800px) {
-    .photo-column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .photo-column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
+}
 </style>

@@ -6,11 +6,11 @@
         alt=""
       />
     </div>
-    <div class="position-absolute top-50 end-0 translate-middle-y me-4">
-      <div style="text-align: right">
-        <h1 class="pcr me-5 my-4 hvr-sweep-to-right">PRODUCE.</h1>
-        <h1 class="pcr me-5 my-4 hvr-sweep-to-right">CREATE.</h1>
-        <h1 class="pcr me-5 my-4 hvr-sweep-to-right">REPEAT.</h1>
+    <div class="position-absolute top-50 end-0 translate-middle-y me-5">
+      <div style="text-align: right; margin-right: 10vw;">
+        <h1 class="pcr my-4 hvr-sweep-to-right">PRODUCE.</h1>
+        <h1 class="pcr my-4 hvr-sweep-to-right">CREATE.</h1>
+        <h1 class="pcr my-4 hvr-sweep-to-right">REPEAT.</h1>
       </div>
     </div>
   </div>
