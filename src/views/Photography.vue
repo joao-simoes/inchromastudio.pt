@@ -12,10 +12,10 @@
           ></a>
           <div v-if="!active" class="photo-row">
             <div class="photo-column">
-              <a href="#" @click="choose('product', 45)">
+              <a href="#" @click="choose('product', 15)">
                 <div class="position-relative text-center my-2">
                   <img
-                    src="../assets/img/photography/product/41.jpg"
+                    src="../assets/img/photography/product/15.jpg"
                     alt="Product"
                   />
                   <div
@@ -32,9 +32,9 @@
                 </div>
               </a>
 
-              <a href="#" @click="choose('food', 29)">
+              <a href="#" @click="choose('gastronomy', 23)">
                 <div class="position-relative text-center my-2">
-                  <img src="../assets/img/photography/food/10.jpg" alt="Food" />
+                  <img src="../assets/img/photography/gastronomy/10.jpg" alt="Gastronomy" />
                   <div
                     class="
                       position-absolute
@@ -49,7 +49,7 @@
                 </div>
               </a>
 
-              <a href="#" @click="choose('portrait', 24)">
+              <a href="#" @click="choose('portrait', 16)">
                 <div class="position-relative text-center my-2">
                   <img
                     style="object-position: 0 -80px"
@@ -73,7 +73,7 @@
 
               
 
-              <a href="#" @click="choose('architecture', 16)">
+              <a href="#" @click="choose('architecture', 11)">
                 <div class="position-relative text-center my-2">
                   <img
                     src="../assets/img/photography/architecture/16.jpg"
@@ -95,7 +95,7 @@
 
 
 
-              <a href="#" @click="choose('lifestyle', 28)">
+              <a href="#" @click="choose('lifestyle', 15)">
                 <div class="position-relative text-center my-2">
                   <img
                     src="../assets/img/photography/lifestyle/7.jpg"

@@ -1,18 +1,18 @@
 <template>
   <div>
-      <h2>{{album}}</h2>
+      <h2>{{albumPT}}</h2>
     <div class="photo-row">
       <div class="photo-column">
-          <img v-for="j in Math.ceil(qt / 3)" :key="j" :src="require(`../assets/img/photography/${album}/thumb/${j}.jpg`)" />   
+          <img v-for="j in Math.ceil(qt / 3)" :key="j" :src="require(`../assets/img/photography/${album}/${j}.jpg`)" />   
       </div>
       <div class="photo-column">
           <div v-for="j in Math.ceil(qt / 3)*2" :key="j">
-            <img v-if="j >  Math.ceil(qt / 3)" :src="require(`../assets/img/photography/${album}/thumb/${j}.jpg`)" />  
+            <img v-if="j >  Math.ceil(qt / 3)" :src="require(`../assets/img/photography/${album}/${j}.jpg`)" />  
           </div> 
       </div>
       <div class="photo-column">
           <div v-for="j in qt" :key="j">
-            <img v-if="j >  Math.ceil(qt / 3)*2" :src="require(`../assets/img/photography/${album}/thumb/${j}.jpg`)" />  
+            <img v-if="j >  Math.ceil(qt / 3)*2" :src="require(`../assets/img/photography/${album}/${j}.jpg`)" />  
           </div> 
       </div>
     </div>
@@ -25,7 +25,37 @@ export default {
   props: {
     album: String,
     qt: Number,
-    j: Number
+    j: Number,
+    albumPT: String
+  },
+  mounted() {
+    switch (this.album) {
+
+      case "product":
+        this.albumPT = "Produto"
+        break;
+
+      case "gastronomy":
+        this.albumPT = "Gastronomia"
+        break;
+
+      case "architecture":
+        this.albumPT = "Arquitetura"
+        break;
+
+      case "lifestyle":
+        this.albumPT = "Lifestyle"
+        break;
+
+      case "portrait":
+        this.albumPT = "Retrato"
+        break;
+
+      default :
+        this.album
+        break;
+    }
+      
   },
 };
 </script>
