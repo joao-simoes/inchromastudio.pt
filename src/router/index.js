@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Photography from '../views/Photography.vue'
+import DigitalPhotography from '../views/DigitalPhotography.vue'
 import Contacts from '../views/Contacts.vue'
 import About from '../views/About.vue'
 import NotFound from '../views/NotFound.vue'
@@ -15,18 +15,13 @@ const routes = [{
         component: Home
     },
     {
-        path: '/photography',
-        name: 'Photography',
-        component: Photography
+        path: '/photography/digital',
+        name: 'Digital Photography',
+        component: DigitalPhotography
     },
     {
         path: '/video',
         name: 'Video',
-        component: Soon
-    },
-    {
-        path: '/services',
-        name: 'Serviços',
         component: Soon
     },
     {

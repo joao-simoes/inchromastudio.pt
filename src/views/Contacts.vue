@@ -7,16 +7,12 @@
         <div class="info">
           <h2 class="work-together">VAMOS<br />TRABALHAR<br />JUNTOS?</h2>
           <p class="mt-5 pt-5">
-            <i class="fas fa-envelope"></i> geral@inchromastudio.pt
-          </p>
-          <hr class="m-5" />
-          <p><i class="fas fa-phone-alt"></i> +351 918 934 915</p>
-          <p><i class="fas fa-phone-alt"></i> +351 913 004 595</p>
-          <p><i class="fas fa-phone-alt"></i> +351 918 246 288</p>
-          <hr class="m-5" />
-          <p>
             <i class="fas fa-map-marker-alt"></i> Rua D. João de Castro, N38 - Loja 28<br />2330-138, Entroncamento
           </p>
+          <p class="my-5">
+            <i class="fas fa-envelope"></i> geral@inchromastudio.pt
+          </p>
+          <p><i class="fas fa-phone-alt"></i> +351 918 934 915</p>
         </div>
       </div>
       <div class="col-10 offset-0 mx-auto col-xl-3 offset-xl-1 mt-5 pt-5">

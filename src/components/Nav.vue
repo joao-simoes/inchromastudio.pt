@@ -20,7 +20,7 @@
       <ul>
         <a href="#" class="hvr-underline-from-left">
           <li id="photography" class="tab">
-            <router-link to="/photography">FOTOGRAFIA</router-link>
+            <router-link to="/photography/digital">FOTOGRAFIA</router-link>
           </li>
         </a>
         <a href="#" class="hvr-underline-from-left">
@@ -29,13 +29,8 @@
           </li>
         </a>
         <a href="#" class="hvr-underline-from-left">
-          <li id="services" class="tab">
-            <router-link to="/services">SERVIÇOS</router-link>
-          </li>
-        </a>
-        <a href="#" class="hvr-underline-from-left">
-          <li id="contacts" class="tab">
-            <router-link to="/contacts">CONTACTOS</router-link>
+          <li id="shop" class="tab">
+            <router-link to="/shop">LOJA</router-link>
           </li>
         </a>
         <a href="#" class="hvr-underline-from-left">
@@ -44,8 +39,8 @@
           </li>
         </a>
         <a href="#" class="hvr-underline-from-left">
-          <li id="shop" class="tab">
-            <router-link to="/shop">LOJA</router-link>
+          <li id="contacts" class="tab">
+            <router-link to="/contacts">CONTACTOS</router-link>
           </li>
         </a>
       </ul>
@@ -101,8 +96,10 @@ export default {
       const menuTab = document.getElementById("menuTab");
 
       const menuTabs = Array.from(document.querySelectorAll(".tab"));
-      menuTabs.forEach(tab => { tab.classList.remove("active-tab") })
-      
+      menuTabs.forEach((tab) => {
+        tab.classList.remove("active-tab");
+      });
+
       const currPage = window.location.pathname.substring(1);
       if (currPage != "")
         document.getElementById(currPage).classList.add("active-tab");
@@ -148,7 +145,6 @@ a {
   height: 100vh;
   z-index: 100;
   background-color: white;
-  box-shadow: 4px 0px 11px 2px rgba(0,0,0,0.53);
 }
 
 .title {

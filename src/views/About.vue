@@ -4,21 +4,38 @@
       <div class="row mt-5 pt-4">
         <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3 mt-5">
           <div class="about-us">
-            <h4 class="pb-5">O QUE SOMOS?</h4>
+            <p class="text-center pb-4">
+              <b>inChroma</b><br />
+              "in" - dentro <br />
+              "Chroma" - cromático/cor
+            </p>
+
             <p class="pb-2">
-              Um estúdio criativo focado na produção fotográfica e videográfica,
-              produzindo conteúdo diversificado e dinâmico, para uso pessoal ou
-              empresarial.
+              Somos um estúdio criativo focado na produção de conteúdo
+              audiovisual, diversificado e dinâmico, para uso pessoal ou
+              empresarial. Este conteúdo pode ser fotográfico, digital ou
+              analógico, videográfico ou gestão de redes sociais.
             </p>
+
             <p class="pb-5">
-              Muito mais que um estúdio, somos pessoas. Somos amantes de
-              fotografia analógica, design e cinema, com uma generosa pitada de
-              boa música.
+              Como o nome indica, todo o nosso trabalho é desenvolvido com
+              detalhe, perfeccionismo e ambição de chegarmos à melhor cor,
+              contraste e ideia que o cliente desejar. Somos só um estúdio? Não,
+              somos muito mais que isso, somos pessoas. Somos amantes de
+              fotografia analógica, design e cinema, com uma generosa pitada de
+              boa música.
             </p>
+
+            <p class="text-center">Os inChroma estão prontos para o receber, venha conhecer a sua cor connosco.</p>
+
+            <h5 class="text-start pt-5 w-75 m-auto">
+              “I found I could say things with color and shapes that I couldn’t say any other way—things I had no words for.”<br><div class="pt-3 text-end">Georgia O’Keeffe</div>
+            </h5>
+
+
             <br />
             <hr class="m-5 w-50 mx-auto" />
             <br />
-            <h4 class="mt-5 pb-5">THE CREW</h4>
             <div class="row">
               <div class="col-12 col-md-4 crew text-center">
                 <div class="m-auto">
@@ -44,7 +61,7 @@
                   <img
                     src="../assets/img/crew/rodrigo.jpg"
                     alt="Sarita Afonso"
-                    style="object-position: 0px 30px ;"
+                    style="object-position: 0px 30px"
                   />
                 </div>
                 <h5 class="my-3">Rodrigo Gonçalves</h5>

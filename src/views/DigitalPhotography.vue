@@ -76,7 +76,7 @@
               <a href="#" @click="choose('architecture', 11)">
                 <div class="position-relative text-center my-2">
                   <img
-                    src="../assets/img/photography/architecture/16.jpg"
+                    src="../assets/img/photography/architecture/1.jpg"
                     alt="Architecture"
                   />
                   <div
@@ -140,7 +140,7 @@
 import Album from "../components/Album.vue";
 
 export default {
-  name: "Photography",
+  name: "DigitalPhotography",
   components: {
     Album,
   },
