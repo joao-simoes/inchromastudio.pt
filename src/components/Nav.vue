@@ -19,9 +19,40 @@
     <div class="links">
       <ul>
         <a href="#" class="hvr-underline-from-left">
-          <li id="photography" class="tab">
-            <router-link to="/photography/digital">FOTOGRAFIA</router-link>
-          </li>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <li
+                  id="photography"
+                  class="tab accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  FOTOGRAFIA
+                </li>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body ms-4 p-0">
+                  <li id="digitalPhotography" class="tab tab2">
+                    <router-link to="/photography/digital">DIGITAL</router-link>
+                  </li>
+                  <li id="analogPhotography" class="tab tab2">
+                    <router-link to="/photography/analog"
+                      >ANALÓGICA</router-link
+                    >
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
         </a>
         <a href="#" class="hvr-underline-from-left">
           <li id="video" class="tab">
@@ -83,8 +114,10 @@ export default {
 
     menuTabs.forEach((tab) => {
       tab.addEventListener("click", () => {
-        this.menu(true);
-        this.menuOpen = false;
+        if (tab.id != "photography") {
+          this.menu(true);
+          this.menuOpen = false;
+        }
       });
     });
   },
@@ -100,9 +133,20 @@ export default {
         tab.classList.remove("active-tab");
       });
 
-      const currPage = window.location.pathname.substring(1);
-      if (currPage != "")
-        document.getElementById(currPage).classList.add("active-tab");
+      const currPage = window.location.pathname;
+      if (currPage.substring(1) != "/") {
+        if (currPage == "/photography/digital")
+          document
+            .getElementById("digitalPhotography")
+            .classList.add("active-tab");
+        else if (currPage == "/photography/analog")
+          document
+            .getElementById("analogPhotography")
+            .classList.add("active-tab");
+        else if (currPage != '/') {
+          document.getElementById(currPage.substring(1)).classList.add("active-tab");
+        }
+      }
 
       if (menuOpen) {
         menuTab.style.left = "-100vw";
@@ -213,6 +257,11 @@ a {
 
 .socialMedia ul {
   list-style-type: none;
+}
+
+.tab2 {
+  font-weight: 100 !important;
+  font-size: 18px !important;
 }
 
 .menu {

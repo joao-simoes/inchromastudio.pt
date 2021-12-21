@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import DigitalPhotography from '../views/DigitalPhotography.vue'
+import Shop from '../views/Shop.vue'
 import Contacts from '../views/Contacts.vue'
 import About from '../views/About.vue'
 import NotFound from '../views/NotFound.vue'
@@ -36,8 +37,8 @@ const routes = [{
     },
     {
         path: '/shop',
-        name: 'Loja',
-        component: Soon
+        name: 'Shop',
+        component: Shop
     },
     {
         path: '/*',

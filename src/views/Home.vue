@@ -2,7 +2,7 @@
   <div>
     <div class="bg">
       <img
-        src="../assets/img/bg.jpeg"
+        src="https://i.pinimg.com/originals/54/86/37/5486370e278e042bf418ac16bfea0cdc.jpg"
         alt=""
       />
     </div>
