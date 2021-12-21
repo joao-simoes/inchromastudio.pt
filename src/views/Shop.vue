@@ -3,14 +3,14 @@
     <div class="container-fluid pb-5">
       <div class="row">
         <div class="col-10 col-xxl-8 offset-1 offset-xl-0 offset-xxl-3 text-center">
-          <div class="row vh-100 align-items-center justify-content-center">
+          <div class="row align-items-center item">
             <div class="col-12 col-md-6">
+              <h6 class="text-start mb-2"><b>Bernardo Alves</b>, 2021</h6>
               <img
                 class="print"
                 src="../assets/img/shop/bernardo/print.jpg"
                 alt="Mockup Bernardo"
               />
-              <h6 class="text-start mt-3">Bernardo Alves, 2021</h6>
             </div>
             <div class="col-12 col-md-6">
               <img
@@ -20,14 +20,14 @@
               />
             </div>
           </div>
-          <div class="row d-flex align-items-center vh-100">
+          <div class="row d-flex align-items-center item">
             <div class="col-12 col-md-6">
+              <h6 class="text-start mb-2"><b>Sarita Afonso</b>, 2021</h6>
               <img
                 class="print"
                 src="../assets/img/shop/sarita/print.jpg"
                 alt="Mockup Bernardo"
               />
-              <h6 class="text-start mt-3">Sarita Afonso, 2021</h6>
             </div>
             <div class="col-12 col-md-6">
               <img
@@ -37,14 +37,14 @@
               />
             </div>
           </div>
-          <div class="row d-flex align-items-center vh-100">
+          <div class="row d-flex align-items-center item">
             <div class="col-12 col-md-6">
+              <h6 class="text-start mb-2"><b>Rodrigo Gonçalves</b>, 2021</h6>
               <img
                 class="print"
                 src="../assets/img/shop/rodrigo/print.jpg"
                 alt="Mockup Bernardo"
               />
-              <h6 class="text-start mt-3">Rodrigo Gonçalves, 2021</h6>
             </div>
             <div class="col-12 col-md-6">
               <img
@@ -96,9 +96,13 @@ export default {
 }
 
 .mockup {
-  width: 100%;
+  width: 80%;
   min-width: 100px;
   max-width: 350px;
   height: auto;
+}
+
+.item {
+  margin: 100px 0 150px 0;
 }
 </style>
