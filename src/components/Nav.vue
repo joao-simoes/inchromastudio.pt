@@ -133,20 +133,7 @@ export default {
         tab.classList.remove("active-tab");
       });
 
-      const currPage = window.location.pathname;
-      if (currPage.substring(1) != "/") {
-        if (currPage == "/photography/digital")
-          document
-            .getElementById("digitalPhotography")
-            .classList.add("active-tab");
-        else if (currPage == "/photography/analog")
-          document
-            .getElementById("analogPhotography")
-            .classList.add("active-tab");
-        else if (currPage != '/') {
-          document.getElementById(currPage.substring(1)).classList.add("active-tab");
-        }
-      }
+      //FIXME: NAV BAR ACTIVE PAGE
 
       if (menuOpen) {
         menuTab.style.left = "-100vw";

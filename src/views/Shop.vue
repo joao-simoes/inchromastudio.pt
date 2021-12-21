@@ -2,56 +2,56 @@
   <div>
     <div class="container-fluid pb-5">
       <div class="row">
-        <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3">
-          <div class="row d-flex align-items-center vh-100 m-auto">
-            <div class="col-12 col-md-7">
+        <div class="col-10 col-xxl-8 offset-1 offset-xl-0 offset-xxl-3 text-center">
+          <div class="row vh-100 align-items-center justify-content-center">
+            <div class="col-12 col-md-6">
+              <img
+                class="print"
+                src="../assets/img/shop/bernardo/print.jpg"
+                alt="Mockup Bernardo"
+              />
+              <h6 class="text-start mt-3">Bernardo Alves, 2021</h6>
+            </div>
+            <div class="col-12 col-md-6">
               <img
                 class="mockup"
                 src="../assets/img/shop/bernardo/mockup.jpg"
                 alt="Mockup Bernardo"
               />
             </div>
-            <div class="col-12 col-md-5">
-              <img
-                class="print"
-                src="../assets/img/shop/bernardo/print.jpg"
-                alt="Mockup Bernardo"
-              />
-              <h6 class="text-end mt-3">Bernardo Alves, 2021</h6>
-            </div>
           </div>
           <div class="row d-flex align-items-center vh-100">
-            <div class="col-12 col-md-7">
+            <div class="col-12 col-md-6">
+              <img
+                class="print"
+                src="../assets/img/shop/sarita/print.jpg"
+                alt="Mockup Bernardo"
+              />
+              <h6 class="text-start mt-3">Sarita Afonso, 2021</h6>
+            </div>
+            <div class="col-12 col-md-6">
               <img
                 class="mockup"
                 src="../assets/img/shop/sarita/mockup.jpg"
                 alt="Mockup Bernardo"
               />
             </div>
-            <div class="col-12 col-md-5">
-              <img
-                class="print"
-                src="../assets/img/shop/sarita/print.jpg"
-                alt="Mockup Bernardo"
-              />
-              <h6 class="text-end mt-3">Sarita Afonso, 2021</h6>
-            </div>
           </div>
           <div class="row d-flex align-items-center vh-100">
-            <div class="col-12 col-md-7">
-              <img
-                class="mockup"
-                src="../assets/img/shop/rodrigo/mockup.jpg"
-                alt="Mockup Bernardo"
-              />
-            </div>
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-6">
               <img
                 class="print"
                 src="../assets/img/shop/rodrigo/print.jpg"
                 alt="Mockup Bernardo"
               />
-              <h6 class="text-end mt-3">Rodrigo Gonçalves, 2021</h6>
+              <h6 class="text-start mt-3">Rodrigo Gonçalves, 2021</h6>
+            </div>
+            <div class="col-12 col-md-6">
+              <img
+                class="mockup"
+                src="../assets/img/shop/rodrigo/mockup.jpg"
+                alt="Mockup Bernardo"
+              />
             </div>
           </div>
           <table class="table w-50 mx-auto">
@@ -87,12 +87,18 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.mockup,
+<style scoped>
 .print {
   width: 100%;
-  min-width: 300px;
-  max-width: 500px;
+  min-width: 150px;
+  max-width: 600px;
+  height: auto;
+}
+
+.mockup {
+  width: 100%;
+  min-width: 100px;
+  max-width: 350px;
   height: auto;
 }
 </style>

@@ -28,15 +28,18 @@
 
             <p class="text-center">Os inChroma estão prontos para o receber, venha conhecer a sua cor connosco.</p>
 
-            <h5 class="text-start pt-5 w-75 m-auto">
+
+
+            <br>
+            <hr class="mt-5 w-50 mx-auto" />
+            <h5 class="text-start pt-5 pb-4 w-75 m-auto">
               “I found I could say things with color and shapes that I couldn’t say any other way—things I had no words for.”<br><div class="pt-3 text-end">Georgia O’Keeffe</div>
             </h5>
+            <hr class="mb-5 w-50 mx-auto" />
+            <br />
 
 
-            <br />
-            <hr class="m-5 w-50 mx-auto" />
-            <br />
-            <div class="row">
+            <div class="row my-5 py-5">
               <div class="col-12 col-md-4 crew text-center">
                 <div class="m-auto">
                   <img src="@/assets/img/crew/sarita.jpg" alt="Sarita Afonso" />
@@ -70,7 +73,7 @@
               </div>
             </div>
 
-            <div class="w-100 text-center mt-5 pt-5">
+            <div class="w-100 text-center mt-5">
               <img
                 src="../assets/img/logo/logoblack.png"
                 alt="inChroma Studio"
@@ -104,7 +107,8 @@
 }
 
 .logo {
-  width: 30% !important;
+  max-width: 450px;
+  min-width: 200px;
   margin: 0 auto;
 }
 

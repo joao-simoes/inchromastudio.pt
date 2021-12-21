@@ -1,12 +1,17 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import DigitalPhotography from '../views/DigitalPhotography.vue'
+import PhotographyIndex from '../components/PhotographyIndex.vue'
 import Shop from '../views/Shop.vue'
 import Contacts from '../views/Contacts.vue'
 import About from '../views/About.vue'
 import NotFound from '../views/NotFound.vue'
 import Soon from '../views/Soon.vue'
+
+//ALBUMS
+import Product from '../views/albums/Product.vue'
+
+
 
 Vue.use(VueRouter)
 
@@ -18,7 +23,12 @@ const routes = [{
     {
         path: '/photography/digital',
         name: 'Digital Photography',
-        component: DigitalPhotography
+        component: PhotographyIndex
+    },
+    {
+        path: '/photography/digital/product',
+        name: 'Product Album',
+        component: Product
     },
     {
         path: '/video',
