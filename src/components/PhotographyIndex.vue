@@ -47,7 +47,8 @@
                 </div>
               </router-link>
 
-              <a href="#">
+              <router-link to="/photography/digital/portrait"
+                >
                 <div class="position-relative text-center my-2">
                   <img
                     style="object-position: 0 -80px"
@@ -67,7 +68,7 @@
                     <h2>Retrato</h2>
                   </div>
                 </div>
-              </a>
+              </router-link>
 
               <a href="#">
                 <div class="position-relative text-center my-2">
