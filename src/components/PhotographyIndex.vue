@@ -9,7 +9,8 @@
                 >
                 <div class="position-relative text-center my-2">
                   <img
-                    src="../assets/img/photography/product/1.jpg"
+                    style="object-position: 0 -160px"
+                    src="../assets/img/photography/product/5.jpg"
                     alt="Product"
                   />
                   <div
@@ -30,7 +31,8 @@
                 >
                 <div class="position-relative text-center my-2">
                   <img
-                    src="../assets/img/photography/gastronomy/10.jpg"
+                    style="object-position: 0 -80px"
+                    src="../assets/img/photography/gastronomy/11.jpg"
                     alt="Gastronomy"
                   />
                   <div
@@ -52,7 +54,7 @@
                 <div class="position-relative text-center my-2">
                   <img
                     style="object-position: 0 -80px"
-                    src="../assets/img/photography/portrait/10.jpg"
+                    src="../assets/img/photography/portrait/2.jpg"
                     alt="Portrait"
                     class="fixmeplease"
                   />
@@ -74,7 +76,7 @@
                 >
                 <div class="position-relative text-center my-2">
                   <img
-                    src="../assets/img/photography/architecture/1.jpg"
+                    src="../assets/img/photography/architecture/5.jpg"
                     alt="Architecture"
                   />
                   <div
