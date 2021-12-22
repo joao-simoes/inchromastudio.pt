@@ -91,7 +91,7 @@
                 </div>
               </router-link>
 
-              <router-link to="/photography/digital/product"
+              <router-link to="/photography/digital/lifestyle"
                 ><div class="position-relative text-center my-2">
                   <img
                     src="../assets/img/photography/lifestyle/7.jpg"
