@@ -3,14 +3,12 @@
     <div class="container-fluid pb-5">
       <div class="row d-flex justify-content-center">
         <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3">
-
-
           <div class="text-end text-lg-start">
             <router-link to="/photography/digital">
-            <i class="fas fa-backward fa-2x mb-4" style="color: #202020"></i
-          ></router-link>
+              <i class="fas fa-backward fa-2x mb-4" style="color: #202020"></i
+            ></router-link>
 
-          <h2>Produto</h2>
+            <h2>Produto</h2>
           </div>
 
           <div class="text-center">
@@ -134,12 +132,18 @@
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from "../../components/Footer.vue";
+
 export default {
   name: "Product",
+  components: {
+    Footer,
+  },
 };
 </script>
 

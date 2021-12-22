@@ -76,12 +76,18 @@
         </div>
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
+import Footer from "../components/Footer.vue";
+
 export default {
   name: "Shop",
+  components: {
+    Footer,
+  },
 };
 </script>
 

@@ -190,12 +190,18 @@
         </div>
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
+import Footer from "../../components/Footer.vue";
+
 export default {
-  name: "gastronomy",
+  name: "Gastronomy",
+  components: {
+    Footer,
+  },
 };
 </script>
 

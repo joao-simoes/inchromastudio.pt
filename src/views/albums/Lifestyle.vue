@@ -131,12 +131,18 @@
         </div>
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
+import Footer from "../../components/Footer.vue";
+
 export default {
-  name: "lifestyle",
+  name: "Lifestyle",
+  components: {
+    Footer,
+  },
 };
 </script>
 

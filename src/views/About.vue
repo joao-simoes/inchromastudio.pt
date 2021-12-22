@@ -4,7 +4,6 @@
       <div class="row mt-5 pt-4">
         <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3 mt-5">
           <div class="about-us">
-
             <div class="pb-4">
               <p class="mb-4 text-center"><b>inChroma</b></p>
               <p class="text-center">
@@ -55,8 +54,20 @@
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
+
+<script>
+import Footer from "../components/Footer.vue";
+
+export default {
+  name: "About",
+  components: {
+    Footer,
+  },
+};
+</script>
 
 <style scoped>
 .crew div {
