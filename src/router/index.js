@@ -12,6 +12,7 @@ import About from '../views/About.vue'
 //ALBUMS
 import Product from '../views/albums/Product.vue'
 import Gastronomy from '../views/albums/Gastronomy.vue'
+import Portrait from '../views/albums/Portrait.vue'
 
 //MISC
 import NotFound from '../views/NotFound.vue'
@@ -40,6 +41,11 @@ const routes = [{
         path: '/photography/digital/gastronomy',
         name: 'Gastronomy Album',
         component: Gastronomy
+    },
+    {
+        path: '/photography/digital/portrait',
+        name: 'Portrait Album',
+        component: Portrait
     },
     {
         path: '/video',
