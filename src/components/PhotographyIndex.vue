@@ -70,7 +70,8 @@
                 </div>
               </router-link>
 
-              <a href="#">
+              <router-link to="/photography/digital/architecture"
+                >
                 <div class="position-relative text-center my-2">
                   <img
                     src="../assets/img/photography/architecture/1.jpg"
@@ -88,7 +89,7 @@
                     <h2>Arquitetura</h2>
                   </div>
                 </div>
-              </a>
+              </router-link>
 
               <router-link to="/photography/digital/product"
                 ><div class="position-relative text-center my-2">
