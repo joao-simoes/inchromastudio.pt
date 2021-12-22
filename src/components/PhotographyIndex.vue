@@ -26,7 +26,8 @@
                 </div>
               </router-link>
 
-              <a href="#">
+              <router-link to="/photography/digital/gastronomy"
+                >
                 <div class="position-relative text-center my-2">
                   <img
                     src="../assets/img/photography/gastronomy/10.jpg"
@@ -41,10 +42,10 @@
                       image-overlay
                     "
                   >
-                    <h2>Comida</h2>
+                    <h2>Gastronomia</h2>
                   </div>
                 </div>
-              </a>
+              </router-link>
 
               <a href="#">
                 <div class="position-relative text-center my-2">

@@ -1,15 +1,21 @@
+//DEFAULT
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
+//PAGES
 import Home from '../views/Home.vue'
 import PhotographyIndex from '../components/PhotographyIndex.vue'
 import Shop from '../views/Shop.vue'
 import Contacts from '../views/Contacts.vue'
 import About from '../views/About.vue'
-import NotFound from '../views/NotFound.vue'
-import Soon from '../views/Soon.vue'
 
 //ALBUMS
 import Product from '../views/albums/Product.vue'
+import Gastronomy from '../views/albums/Gastronomy.vue'
+
+//MISC
+import NotFound from '../views/NotFound.vue'
+import Soon from '../views/Soon.vue'
 
 
 
@@ -29,6 +35,11 @@ const routes = [{
         path: '/photography/digital/product',
         name: 'Product Album',
         component: Product
+    },
+    {
+        path: '/photography/digital/gastronomy',
+        name: 'Gastronomy Album',
+        component: Gastronomy
     },
     {
         path: '/video',
