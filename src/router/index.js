@@ -8,13 +8,21 @@ import PhotographyIndex from '../components/PhotographyIndex.vue'
 import Shop from '../views/Shop.vue'
 import Contacts from '../views/Contacts.vue'
 import About from '../views/About.vue'
+import Video from '../components/VideoIndex.vue'
 
-//ALBUMS
+//DIGITAL PHOTOGRAPHY
 import Product from '../views/albums/Product.vue'
 import Gastronomy from '../views/albums/Gastronomy.vue'
 import Portrait from '../views/albums/Portrait.vue'
 import Architecture from '../views/albums/Architecture.vue'
 import Lifestyle from '../views/albums/Lifestyle.vue'
+
+//VIDEO
+import Video_Product from '../views/video/Product.vue'
+import Video_Architecture from '../views/video/Architecture.vue'
+import Video_Gastronomy from '../views/video/Gastronomy.vue'
+import Video_Lifestyle from '../views/video/Lifestyle.vue'
+import Video_Corporate from '../views/video/Corporate.vue'
 
 //MISC
 import NotFound from '../views/NotFound.vue'
@@ -33,6 +41,11 @@ const routes = [{
         path: '/photography/digital',
         name: 'Digital Photography',
         component: PhotographyIndex
+    },
+    {
+        path: '/photography/analog',
+        name: 'Analog Photography',
+        component: Soon
     },
     {
         path: '/photography/digital/product',
@@ -62,7 +75,32 @@ const routes = [{
     {
         path: '/video',
         name: 'Video',
-        component: Soon
+        component: Video
+    },
+    {
+        path: '/video/product',
+        name: 'Product Album',
+        component: Video_Product
+    },
+    {
+        path: '/video/architecture',
+        name: 'Architecture Album',
+        component: Video_Architecture
+    },
+    {
+        path: '/video/gastronomy',
+        name: 'Gastronomy Album',
+        component: Video_Gastronomy
+    },
+    {
+        path: '/video/lifestyle',
+        name: 'Lifestyle Album',
+        component: Video_Lifestyle
+    },
+    {
+        path: '/video/corporate',
+        name: 'Corporate Album',
+        component: Video_Corporate
     },
     {
         path: '/contacts',
