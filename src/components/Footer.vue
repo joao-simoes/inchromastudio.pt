@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <footer class="position-relative bottom-0 start-0 w-100 text-center mt-5">
+  <div class="row justify-content-center">
+    <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3 mt-5">
+      <footer class="position-relative bottom-0 start-0 w-100 text-center mt-5">
       <p>
         All Rights Reserved ©
         <a href="https://www.joao-simoes.pt" target="_blank"
@@ -8,6 +9,7 @@
         >, {{ year }}
       </p>
     </footer>
+    </div>
   </div>
 </template>
 
