@@ -2,7 +2,7 @@
   <div id="menuTab" class="tab-container">
     <div class="menu">
       <a id="open" href="#"><i class="fas fa-bars fa-2x"></i></a>
-      <a id="close" href="#" style="opacity: 0%"
+      <a id="close" href="#" style="opacity: 0"
         ><i class="fas fa-times fa-2x"></i
       ></a>
     </div>
@@ -138,16 +138,16 @@ export default {
       if (menuOpen) {
         menuTab.style.left = "-100vw";
 
-        open.style.opacity = "100%";
+        open.style.opacity = "1";
         open.style.transform = "rotate(-180deg)";
-        close.style.opacity = "0%";
+        close.style.opacity = "0";
         close.style.transform = "rotate(-180deg)";
       } else {
         menuTab.style.left = "0";
 
-        open.style.opacity = "0%";
+        open.style.opacity = "0";
         open.style.transform = "rotate(180deg)";
-        close.style.opacity = "100%";
+        close.style.opacity = "1";
         close.style.transform = "rotate(180deg)";
       }
 
@@ -255,7 +255,7 @@ a {
   position: fixed;
   top: 3vh;
   left: 3vh;
-  opacity: 0%;
+  opacity: 0;
   transition: ease-in-out 0.25s;
   transform: scale(0);
 }
@@ -277,7 +277,7 @@ a {
     transition: ease-in-out 0.5s;
   }
   .menu {
-    opacity: 100%;
+    opacity: 1;
     transition: ease-in-out 0.25s;
     transform: scale(1);
   }
