@@ -53,8 +53,8 @@
                 >
                 <div class="position-relative text-center my-2">
                   <img
-                    style="object-position: 0 -80px; filter: grayscale(100%);"
-                    src="../assets/img/photography/portrait/2.jpg"
+                    style="object-position: 0 -80px;"
+                    src="../assets/img/photography/portrait/0.jpeg"
                     alt="Portrait"
                     class="fixmeplease"
                   />
