@@ -5,11 +5,10 @@
         <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3 mt-5">
           <div class="photo-row">
             <div class="photo-column mx-auto">
-              <router-link to="/photography/digital/product"
-                >
+              <router-link to="/photography/digital/product">
                 <div class="position-relative text-center my-2">
                   <img
-                    style="object-position: 0 -160px"
+                    style="object-position: 0 100%"
                     src="../assets/img/photography/product/5.jpg"
                     alt="Product"
                   />
@@ -27,8 +26,7 @@
                 </div>
               </router-link>
 
-              <router-link to="/photography/digital/gastronomy"
-                >
+              <router-link to="/photography/digital/gastronomy">
                 <div class="position-relative text-center my-2">
                   <img
                     style="object-position: 0 -80px"
@@ -49,11 +47,10 @@
                 </div>
               </router-link>
 
-              <router-link to="/photography/digital/portrait"
-                >
+              <router-link to="/photography/digital/portrait">
                 <div class="position-relative text-center my-2">
                   <img
-                    style="object-position: 0 -80px;"
+                    style="object-position: 0 -80px"
                     src="../assets/img/photography/portrait/0.jpeg"
                     alt="Portrait"
                     class="fixmeplease"
@@ -72,8 +69,7 @@
                 </div>
               </router-link>
 
-              <router-link to="/photography/digital/architecture"
-                >
+              <router-link to="/photography/digital/architecture">
                 <div class="position-relative text-center my-2">
                   <img
                     src="../assets/img/photography/architecture/5.jpg"
@@ -117,7 +113,7 @@
         </div>
       </div>
     </div>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -184,13 +180,11 @@ a {
     font-size: 35px;
   }
 
-  .photo-column {
-    flex: 50%;
-    max-width: 50%;
-  }
-
-  .fixmeplease {
-    object-position: 0 0 !important;
+  .photo-column img {
+    vertical-align: middle;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
   }
 }
 
@@ -198,6 +192,13 @@ a {
   .photo-column {
     flex: 100%;
     max-width: 100%;
+  }
+
+  .photo-column img {
+    vertical-align: middle;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
   }
 }
 </style>
