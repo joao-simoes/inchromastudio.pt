@@ -5,7 +5,7 @@
         <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3">
 
 
-          <div class="text-end text-lg-start">
+          <div class="text-end text-lg-start mt-5">
             <router-link to="/photography/digital">
             <i class="fas fa-backward fa-2x mb-4" style="color: #202020"></i
           ></router-link>
@@ -147,6 +147,10 @@ export default {
 </script>
 
 <style scoped>
+h2 {
+  font-size: 10vw;
+}
+
 img {
   width: 100%;
   max-width: 600px;
