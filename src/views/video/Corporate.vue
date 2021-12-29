@@ -44,10 +44,6 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-  font-size: 10vw;
-}
-
 .reels {
   width: 100%;
   aspect-ratio: 9/16;
@@ -64,6 +60,10 @@ h2 {
 }
 
 @media screen and (max-width: 991px) {
+  h2 {
+    font-size: 10vw;
+  }
+
   .row,
   .col {
     margin: 0 !important;

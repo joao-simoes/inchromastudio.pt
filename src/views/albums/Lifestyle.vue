@@ -147,10 +147,6 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-  font-size: 10vw;
-}
-
 img {
   width: 100%;
   max-width: 600px;
@@ -162,6 +158,10 @@ img {
 }
 
 @media screen and (max-width: 991px) {
+  h2 {
+    font-size: 10vw;
+  }
+
   .row,
   .col {
     margin: 0 !important;
