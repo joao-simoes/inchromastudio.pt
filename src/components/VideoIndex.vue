@@ -30,7 +30,6 @@
               <router-link to="/video/gastronomy">
                 <div class="position-relative text-center my-2">
                   <img
-                    style="object-position: 0 -80px"
                     :src="gastronomy.hover ? gastronomy.gif : gastronomy.static"
                     alt="Gastronomy"
                   />
@@ -219,9 +218,10 @@ a {
     font-size: 35px;
   }
 
-  .photo-column {
-    flex: 50%;
-    max-width: 50%;
+  .photo-column img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
   }
 }
 
@@ -229,6 +229,12 @@ a {
   .photo-column {
     flex: 100%;
     max-width: 100%;
+  }
+
+  .photo-column img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
   }
 }
 </style>
