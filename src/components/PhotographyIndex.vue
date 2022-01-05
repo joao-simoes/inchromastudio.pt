@@ -8,8 +8,8 @@
               <router-link to="/photography/digital/product">
                 <div class="position-relative text-center my-2">
                   <img
-                    style="object-position: 0 100%"
-                    src="../assets/img/photography/product/5.jpg"
+                    style="object-position: 0 -100px"
+                    src="../assets/img/photography/product/1.jpg"
                     alt="Product"
                   />
                   <div
