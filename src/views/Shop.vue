@@ -4,50 +4,55 @@
       <div class="row">
         <div class="col-10 col-xxl-8 offset-1 offset-xl-0 offset-xxl-3 text-center">
           <div class="row align-items-center item">
+            <p class="print-title"><b class="me-4">"Deep Conversations, Between Cables"</b> 2017</p>
             <div class="col-12 col-md-6">
               <img
                 class="print"
                 src="../assets/img/shop/bernardo/print.jpg"
-                alt="Mockup Bernardo"
+                alt="Mockup"
               />
             </div>
             <div class="col-12 col-md-6">
               <img
                 class="mockup"
                 src="../assets/img/shop/bernardo/mockup.jpg"
-                alt="Mockup Bernardo"
+                alt="Mockup"
               />
+              
             </div>
           </div>
           <div class="row d-flex align-items-center item">
+            <p class="print-title"><b class="me-4">"Focus"</b> 2018</p>
             <div class="col-12 col-md-6">
               <img
                 class="print"
                 src="../assets/img/shop/sarita/print.jpg"
-                alt="Mockup Bernardo"
+                alt="Mockup"
               />
             </div>
             <div class="col-12 col-md-6">
               <img
                 class="mockup"
                 src="../assets/img/shop/sarita/mockup.jpg"
-                alt="Mockup Bernardo"
+                alt="Mockup"
               />
             </div>
           </div>
           <div class="row d-flex align-items-center item">
+            <p class="print-title"><b class="me-4">"Positive"</b> 2018</p>
             <div class="col-12 col-md-6">
               <img
                 class="print"
                 src="../assets/img/shop/rodrigo/print.jpg"
-                alt="Mockup Bernardo"
+                alt="Mockup"
               />
             </div>
             <div class="col-12 col-md-6">
+              <h4></h4>
               <img
                 class="mockup"
                 src="../assets/img/shop/rodrigo/mockup.jpg"
-                alt="Mockup Bernardo"
+                alt="Mockup"
               />
             </div>
           </div>
@@ -64,7 +69,7 @@
                 <tr>
                     <th scope="row">30cm</th>
                     <th>20cm</th>
-                    <th rowspan="2"><br>Sob Consulta<br><p style="font-size: 12px;">geral@inchroma.pt</p></th>
+                    <th rowspan="2"><br>Para mais informações<br><p style="font-size: 12px;">geral@inchromastudio.pt</p></th>
                 </tr>
                 <tr>
                     <th scope="row">40cm</th>
@@ -108,5 +113,10 @@ export default {
 
 .item {
   margin: 100px 0 150px 0;
+}
+
+.print-title {
+  font-size: 16px;
+  text-align: left;
 }
 </style>
