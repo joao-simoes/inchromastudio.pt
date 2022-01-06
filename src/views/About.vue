@@ -12,14 +12,14 @@
               </p>
             </div>
 
-            <p class="pb-2">
+            <p class="pb-2 text-center">
               Somos um estúdio criativo focado na produção de conteúdo
               audiovisual, diversificado e dinâmico, para uso pessoal ou
               empresarial. Este conteúdo pode ser fotográfico, digital ou
               analógico, videográfico ou gestão de redes sociais.
             </p>
 
-            <p class="pb-5">
+            <p class="pb-5 text-center">
               Como o nome indica, todo o nosso trabalho é desenvolvido com
               detalhe, perfeccionismo e ambição de chegarmos à melhor cor,
               contraste e ideia que o cliente desejar. Somos só um estúdio? Não,
