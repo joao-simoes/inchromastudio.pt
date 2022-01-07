@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 //PAGES
 import Home from '../views/Home.vue'
 import PhotographyIndex from '../components/PhotographyIndex.vue'
+import PhotographyAnalog from '../views/Analog.vue'
 import Shop from '../views/Shop.vue'
 import Contacts from '../views/Contacts.vue'
 import About from '../views/About.vue'
@@ -26,7 +27,7 @@ import Video_Corporate from '../views/video/Corporate.vue'
 
 //MISC
 import NotFound from '../views/NotFound.vue'
-import Soon from '../views/Soon.vue'
+//import Soon from '../views/Soon.vue'
 
 
 
@@ -45,7 +46,7 @@ const routes = [{
     {
         path: '/photography/analog',
         name: 'Analog Photography',
-        component: Soon
+        component: PhotographyAnalog
     },
     {
         path: '/photography/digital/product',
