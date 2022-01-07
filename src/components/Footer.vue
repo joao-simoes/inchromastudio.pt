@@ -1,14 +1,18 @@
 <template>
-  <div class="row justify-content-center">
-    <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3 mt-5">
-      <footer class="position-relative bottom-0 start-0 w-100 text-center mt-5">
-      <p>
-        All Rights Reserved ©
-        <a href="https://www.joao-simoes.pt" target="_blank"
-          ><b>João Simões</b></a
-        >, {{ year }}
-      </p>
-    </footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3 mt-5">
+        <footer
+          class="position-relative bottom-0 start-0 w-100 text-center mt-5"
+        >
+          <p>
+            All Rights Reserved ©
+            <a href="https://www.joao-simoes.pt" target="_blank"
+              ><b>João Simões</b></a
+            >, {{ year }}
+          </p>
+        </footer>
+      </div>
     </div>
   </div>
 </template>
