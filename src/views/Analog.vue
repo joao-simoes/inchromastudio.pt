@@ -36,14 +36,6 @@
             <p class="text-center pt-5 pb-4">
               Para mais informações - geral@inchromastudio.pt
             </p>
-
-            <div class="w-100 text-center">
-              <img
-                src="../assets/img/logo/logoblack.png"
-                alt="inChroma Studio"
-                class="w-50 mt-5 pt-5 logo"
-              />
-            </div>
           </div>
         </div>
       </div>
