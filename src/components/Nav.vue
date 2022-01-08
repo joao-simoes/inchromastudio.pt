@@ -81,13 +81,16 @@
       <ul class="mt-5">
         <li>
           <a href="https://www.facebook.com/inchromastudio" target="_blank"
-            ><i class="fab fa-facebook-f fa-2x me-3 hvr-grow"></i
+            ><i class="fab fa-facebook-f fa-2x hvr-grow mx-2"></i
           ></a>
           <a href="https://www.instagram.com/inchroma.studio/" target="_blank"
-            ><i class="fab fa-instagram mx-3 fa-2x hvr-grow"></i
+            ><i class="fab fa-instagram mx-3 fa-2x hvr-grow mx-2"></i
           ></a>
           <a href="#" target="_blank"
-            ><i class="fab fa-behance fa-2x hvr-grow ms-3"></i
+            ><i class="fab fa-behance fa-2x hvr-grow mx-2"></i
+          ></a>
+          <a href="#" target="_blank"
+            ><i class="fab fa-linkedin fa-2x hvr-grow mx-2"></i
           ></a>
         </li>
       </ul>
@@ -234,7 +237,7 @@ a {
 
 .socialMedia {
   position: absolute;
-  left: 15%;
+  left: 0;
   bottom: 5%;
 }
 

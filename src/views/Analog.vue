@@ -16,14 +16,14 @@
             
             <h3 class="mt-5 text-center">| REVELAÇÃO |</h3>
             <p class="pt-3 text-center">
-              <b>Película 35mm e Médio Formato</b>
+              <b> - Película 35mm e Médio Formato - </b>
               <br>
               Preto e Branco
             </p>
 
             <h3 class="mt-5 text-center">| DIGITALIZAÇÃO |</h3>
             <p class="pt-3 text-center">
-              <b>Película 35mm e Médio Formato</b>
+              <b> - Película 35mm e Médio Formato - </b>
               <br>
               Preto e Branco <br>
               Diapositivo <br>
