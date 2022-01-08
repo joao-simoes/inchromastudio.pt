@@ -14,19 +14,19 @@
 
           <div class="row my-5 py-2">
             <div class="col-12 col-lg-4">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/2.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-4">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/3.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-4 align-self-end">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/4.jpg"
                 alt="Gastronomia"
               />
@@ -35,13 +35,13 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-6">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/5.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-6">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/6.jpg"
                 alt="Gastronomia"
               />
@@ -50,13 +50,13 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-6">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/7.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-6">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/8.jpg"
                 alt="Gastronomia"
               />
@@ -65,7 +65,7 @@
 
           <div class="row my-5 py-2">
             <div class="col-12 text-center">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/9.jpg"
                 alt="Gastronomia"
               />
@@ -74,13 +74,13 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-5">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/10.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-7">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/11.jpg"
                 alt="Gastronomia"
               />
@@ -91,13 +91,13 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-7">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/12.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-5">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/13.jpg"
                 alt="Gastronomia"
               />
@@ -108,13 +108,13 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-7">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/15.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-5">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/16.jpg"
                 alt="Gastronomia"
               />
@@ -124,13 +124,13 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-6">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/17.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-6">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/20.jpg"
                 alt="Gastronomia"
               />
@@ -141,7 +141,7 @@
 
           <div class="row my-5 py-2">
             <div class="col-12 text-center">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/1.jpg"
                 alt="Gastronomia"
               />
@@ -151,13 +151,13 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-6">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/18.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-6">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/19.jpg"
                 alt="Gastronomia"
               />
@@ -167,19 +167,19 @@
 
           <div class="row my-5 py-2">
             <div class="col-12 col-lg-4 align-self-end">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/21.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-4">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/22.jpg"
                 alt="Gastronomia"
               />
             </div>
             <div class="col-12 col-lg-4 align-self-start">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/gastronomy/23.jpg"
                 alt="Gastronomia"
               />

@@ -14,13 +14,13 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-5">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/3.jpg"
                 alt="Retrato"
               />
             </div>
             <div class="col-12 col-lg-7 align-self-end">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/4.jpg"
                 alt="Retrato"
               />
@@ -29,19 +29,19 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-4">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/5.jpg"
                 alt="Retrato"
               />
             </div>
             <div class="col-12 col-lg-4">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/7.jpg"
                 alt="Retrato"
               />
             </div>
             <div class="col-12 col-lg-4">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/6.jpg"
                 alt="Retrato"
               />
@@ -50,13 +50,13 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-6">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/9.jpg"
                 alt="Retrato"
               />
             </div>
             <div class="col-12 col-lg-6">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/10.jpg"
                 alt="Retrato"
               />
@@ -65,7 +65,7 @@
 
           <div class="row my-5 py-2">
             <div class="col-12 text-center">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/8.jpg"
                 alt="Retrato"
               />
@@ -74,13 +74,13 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-7">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/12.jpg"
                 alt="Retrato"
               />
             </div>
             <div class="col-12 col-lg-5">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/11.jpg"
                 alt="Retrato"
               />
@@ -90,19 +90,19 @@
 
           <div class="row my-5 py-2 align-items-center">
             <div class="col-12 col-lg-4">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/14.jpg"
                 alt="Retrato"
               />
             </div>
             <div class="col-12 col-lg-4">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/15.jpg"
                 alt="Retrato"
               />
             </div>
             <div class="col-12 col-lg-4">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/16.jpg"
                 alt="Retrato"
               />
@@ -114,7 +114,7 @@
 
           <div class="row my-5 py-2 align-items-center text-center">
             <div class="col-12 col-lg-12">
-              <img
+              <img v-img:group
                 src="../../assets/img/photography/portrait/13.jpg"
                 alt="Retrato"
               />
