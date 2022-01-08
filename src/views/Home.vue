@@ -2,8 +2,8 @@
   <div>
     <div class="bg">
       <img
-        src="https://i.pinimg.com/originals/54/86/37/5486370e278e042bf418ac16bfea0cdc.jpg"
-        alt=""
+        src='../assets/img/background.jpeg'
+        alt="Background inChroma Studio"
       />
     </div>
     <div class="position-absolute top-50 end-0 translate-middle-y me-5">
@@ -49,7 +49,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.4;
+  opacity: 0.85;
 }
 
 .pcr {
