@@ -15,13 +15,19 @@
             </div>
             
             <h3 class="mt-5 text-center">| REVELAÇÃO |</h3>
-            <p class="pt-3 text-center">
+            <div class="w-100 text-center">
+              <img class="icon" src="../assets/img/35mm_icon.png" alt="Revelação">
+            </div>
+            <p class="pt-3 pb-5 text-center">
               <b> - Película 35mm e Médio Formato - </b>
               <br>
               Preto e Branco
             </p>
 
-            <h3 class="mt-5 text-center">| DIGITALIZAÇÃO |</h3>
+            <h3 class="mt-5 pt-5 text-center">| DIGITALIZAÇÃO |</h3>
+            <div class="w-100 text-center">
+              <img class="icon" src="../assets/img/digitalizacao_icon.png" alt="Revelação">
+            </div>
             <p class="pt-3 text-center">
               <b> - Película 35mm e Médio Formato - </b>
               <br>
@@ -77,6 +83,12 @@ export default {
   max-width: 450px;
   min-width: 200px;
   margin: 0 auto;
+}
+
+.icon {
+  width: 10%;
+  max-width: 150px;
+  min-width: 100px;
 }
 
 @media only screen and (max-width: 768px) {
