@@ -89,7 +89,7 @@
           <a href="https://www.behance.net/theinchromastudio" target="_blank"
             ><i class="fab fa-behance fa-2x hvr-grow mx-2"></i
           ></a>
-          <a href="#" target="_blank"
+          <a href="https://www.linkedin.com/company/inchroma-studio/" target="_blank"
             ><i class="fab fa-linkedin fa-2x hvr-grow mx-2"></i
           ></a>
         </li>
