@@ -7,7 +7,7 @@
         <div class="info">
           <h2 class="work-together">VAMOS<br />TRABALHAR<br />JUNTOS?</h2>
           <p class="mt-5 pt-5">
-            <i class="fas fa-map-marker-alt"></i> Rua D. João de Castro, N38 - Loja 28<br />2330-138, Entroncamento
+            <i class="fas fa-map-marker-alt"></i> Rua D. João de Castro, N34 - Loja 28<br />2330-138, Entroncamento
           </p>
           <p class="my-5">
             <i class="fas fa-envelope"></i> geral@inchromastudio.pt

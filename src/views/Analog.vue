@@ -5,43 +5,54 @@
         <div class="col-10 col-xxl-8 offset-0 offset-xl-0 offset-xxl-3 mt-5">
           <div class="about-us">
             <div class="pb-4">
-              <h4 class="mb-4 text-center"><b>LABORATÓRIO ANALÓGICO</b></h4>
-              <p class="text-center">
+              <h4 class="mb-5 pb-4 text-center"><b>LABORATÓRIO ANALÓGICO</b></h4>
+              <p class="text-center pb-4">
                 Um laboratório de revelação e digitalização pronto para trazer à
                 vida as suas películas ou fotografias e extender as suas
                 memórias. Não só pretendemos extender as suas memórias como
                 pertendemos melhorá-las.
               </p>
             </div>
-            
-            <h3 class="mt-5 text-center">| REVELAÇÃO |</h3>
-            <div class="w-100 text-center">
-              <img class="icon" src="../assets/img/35mm_icon.png" alt="Revelação">
+
+            <div class="w-100 text-center mt-5 pt-3 mb-2">
+              <img
+                class="icon"
+                src="../assets/img/35mm_icon.png"
+                alt="Revelação"
+              />
             </div>
+            <h3 class="text-center">| REVELAÇÃO |</h3>
             <p class="pt-3 pb-5 text-center">
               <b> - Película 35mm e Médio Formato - </b>
-              <br>
+              <br />
               Preto e Branco
             </p>
 
-            <h3 class="mt-5 pt-5 text-center">| DIGITALIZAÇÃO |</h3>
-            <div class="w-100 text-center">
-              <img class="icon" src="../assets/img/digitalizacao_icon.png" alt="Revelação">
+            <div class="w-100 text-center mt-4 mb-2">
+              <img
+                class="icon"
+                src="../assets/img/digitalizacao_icon.png"
+                alt="Revelação"
+              />
             </div>
+            <h3 class="text-center">| DIGITALIZAÇÃO |</h3>
             <p class="pt-3 text-center">
               <b> - Película 35mm e Médio Formato - </b>
-              <br>
-              Preto e Branco <br>
-              Diapositivo <br>
-              Cor <br>
+              <br />
+              Preto e Branco <br />
+              Diapositivo <br />
+              Cor <br />
             </p>
 
-            <h5 class="text-center pt-5 pb-4">
-              - Provas Impressas -
-            </h5>
-            <p class="text-center pt-5 pb-4">
-              Para mais informações - geral@inchromastudio.pt
+            
+            <h5 class="text-center pt-5 pb-4" style="margin-bottom: 25%;">- Provas Impressas -</h5>
+
+            <hr class="w-25 mx-auto mt-5">
+            <p class="text-center my-0" >
+              <b>Para mais informações</b>
             </p>
+            <p class="text-center" style="font-size: 14px !important;">geral@inchromastudio.pt</p>
+            <hr class="w-25 mx-auto">
           </div>
         </div>
       </div>
@@ -86,9 +97,9 @@ export default {
 }
 
 .icon {
-  width: 10%;
-  max-width: 150px;
-  min-width: 100px;
+  width: 5%;
+  max-width: 70px;
+  min-width: 50px;
 }
 
 @media only screen and (max-width: 768px) {

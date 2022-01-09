@@ -7,6 +7,7 @@
             <p class="print-title"><b class="me-4">"Deep Conversations Between Cables"</b> 2017</p>
             <div class="col-12 col-md-6">
               <img
+                v-img:group1
                 class="print"
                 src="../assets/img/shop/bernardo/print.jpg"
                 alt="Mockup"
@@ -14,6 +15,7 @@
             </div>
             <div class="col-12 col-md-6">
               <img
+                v-img:group1
                 class="mockup"
                 src="../assets/img/shop/bernardo/mockup.jpg"
                 alt="Mockup"
@@ -25,6 +27,7 @@
             <p class="print-title"><b class="me-4">"Focus"</b> 2018</p>
             <div class="col-12 col-md-6">
               <img
+                v-img:group2
                 class="print"
                 src="../assets/img/shop/sarita/print.jpg"
                 alt="Mockup"
@@ -32,6 +35,7 @@
             </div>
             <div class="col-12 col-md-6">
               <img
+                v-img:group2
                 class="mockup"
                 src="../assets/img/shop/sarita/mockup.jpg"
                 alt="Mockup"
@@ -42,17 +46,19 @@
             <p class="print-title"><b class="me-4">"Positive"</b> 2018</p>
             <div class="col-12 col-md-6">
               <img
+                v-img:group3
                 class="print"
                 src="../assets/img/shop/rodrigo/print.jpg"
-                alt="Mockup"
+                alt="Positive"
               />
             </div>
             <div class="col-12 col-md-6">
               <h4></h4>
               <img
+                v-img:group3
                 class="mockup"
                 src="../assets/img/shop/rodrigo/mockup.jpg"
-                alt="Mockup"
+                alt="Positive"
               />
             </div>
           </div>

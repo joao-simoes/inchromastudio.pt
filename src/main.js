@@ -4,7 +4,12 @@ import router from './router'
 import VuePageTransition from "vue-page-transition";
 import VueImg from 'v-img';
 
-Vue.use(VueImg);
+const vueImgConfig = {
+    altAsTitle: true,
+    openOn: 'click',
+    thumbnails: true,
+}
+Vue.use(VueImg, vueImgConfig);
 Vue.use(VuePageTransition);
 
 Vue.config.productionTip = false
