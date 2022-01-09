@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-10 col-xxl-8 offset-1 offset-xl-0 offset-xxl-3 text-center">
           <div class="row align-items-center item">
-            <p class="print-title"><b class="me-4">"Deep Conversations, Between Cables"</b> 2017</p>
+            <p class="print-title"><b class="me-4">"Deep Conversations Between Cables"</b> 2017</p>
             <div class="col-12 col-md-6">
               <img
                 class="print"
