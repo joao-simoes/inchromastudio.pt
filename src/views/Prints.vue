@@ -10,7 +10,7 @@
                 v-img:group1
                 class="print"
                 src="../assets/img/shop/bernardo/print.jpg"
-                alt="Mockup"
+                alt="Deep Conversations Between Cables"
               />
             </div>
             <div class="col-12 col-md-6">
@@ -18,7 +18,7 @@
                 v-img:group1
                 class="mockup"
                 src="../assets/img/shop/bernardo/mockup.jpg"
-                alt="Mockup"
+                alt="Deep Conversations Between Cables"
               />
               
             </div>
@@ -30,7 +30,7 @@
                 v-img:group2
                 class="print"
                 src="../assets/img/shop/sarita/print.jpg"
-                alt="Mockup"
+                alt="Focus"
               />
             </div>
             <div class="col-12 col-md-6">
@@ -38,7 +38,7 @@
                 v-img:group2
                 class="mockup"
                 src="../assets/img/shop/sarita/mockup.jpg"
-                alt="Mockup"
+                alt="Focus"
               />
             </div>
           </div>
