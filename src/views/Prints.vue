@@ -95,7 +95,7 @@
 import Footer from "../components/Footer.vue";
 
 export default {
-  name: "Shop",
+  name: "Prints",
   components: {
     Footer,
   },

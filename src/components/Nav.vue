@@ -60,8 +60,8 @@
           </li>
         </a>
         <a href="#" class="hvr-underline-from-left">
-          <li id="shop" class="tab">
-            <router-link to="/shop">PRINTS</router-link>
+          <li id="prints" class="tab">
+            <router-link to="/prints">PRINTS</router-link>
           </li>
         </a>
         <a href="#" class="hvr-underline-from-left">

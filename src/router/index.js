@@ -6,7 +6,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import PhotographyIndex from '../components/PhotographyIndex.vue'
 import PhotographyAnalog from '../views/Analog.vue'
-import Shop from '../views/Shop.vue'
+import Prints from '../views/Prints.vue'
 import Contacts from '../views/Contacts.vue'
 import About from '../views/About.vue'
 import Video from '../components/VideoIndex.vue'
@@ -114,9 +114,9 @@ const routes = [{
         component: About
     },
     {
-        path: '/shop',
-        name: 'Shop',
-        component: Shop
+        path: '/prints',
+        name: 'Prints',
+        component: Prints
     },
     {
         path: '/*',
