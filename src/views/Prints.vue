@@ -2,9 +2,13 @@
   <div>
     <div class="container-fluid pb-5">
       <div class="row">
-        <div class="col-10 col-xxl-8 offset-1 offset-xl-0 offset-xxl-3 text-center">
+        <div
+          class="col-10 col-xxl-8 offset-1 offset-xl-0 offset-xxl-3 text-center"
+        >
           <div class="row align-items-center item">
-            <p class="print-title"><b class="me-4">"Deep Conversations Between Cables"</b> 2017</p>
+            <p class="print-title">
+              <b class="me-4">"Deep Conversations Between Cables"</b> 2017
+            </p>
             <div class="col-12 col-md-6">
               <img
                 v-img:group1
@@ -20,7 +24,6 @@
                 src="../assets/img/shop/bernardo/mockup.jpg"
                 alt="Deep Conversations Between Cables"
               />
-              
             </div>
           </div>
           <div class="row d-flex align-items-center item">
@@ -63,31 +66,34 @@
             </div>
           </div>
           <div>
-            <table class="table w-50 mx-auto">
-            <thead>
-              <tr>
-                <th>Comprimento</th>
-                <th>Altura</th>
-                <th>Preço</th>
-              </tr>
-            </thead>
-            <tbody>
+            <table class="table w-100 w-xl-50 mx-auto">
+              <thead>
                 <tr>
-                    <th scope="row">30cm</th>
-                    <th>20cm</th>
-                    <th rowspan="2"><br>Para mais informações<br><p style="font-size: 12px;">geral@inchromastudio.pt</p></th>
+                  <th>Comprimento</th>
+                  <th>Altura</th>
+                  <th>Preço</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">30cm</th>
+                  <th>20cm</th>
+                  <th rowspan="2">
+                    <br />Para mais informações<br />
+                    <p style="font-size: 12px">geral@inchromastudio.pt</p>
+                  </th>
                 </tr>
                 <tr>
-                    <th scope="row">40cm</th>
-                    <th>30cm</th>
+                  <th scope="row">40cm</th>
+                  <th>30cm</th>
                 </tr>
-            </tbody>
-          </table>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
     </div>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -124,5 +130,14 @@ export default {
 .print-title {
   font-size: 16px;
   text-align: left;
+}
+
+@media only screen and (max-width: 450px) {
+  .table th {
+    font-size: 0.8rem !important;
+  }
+  .table p {
+    font-size: 0.5rem !important;
+  }
 }
 </style>

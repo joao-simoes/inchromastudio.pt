@@ -174,10 +174,11 @@ a {
 }
 
 .image-overlay {
-  opacity: 0;
+  opacity: 0.6;
   width: 100%;
   height: 100%;
   transition: 0.2s ease-in-out;
+  background-color: #202020;
 }
 
 .image-overlay h2 {
@@ -188,9 +189,16 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.image-overlay:hover {
-  opacity: 0.8;
-  transition: 0.2s ease-in-out;
+@media (hover: hover) {
+  .image-overlay {
+    opacity: 0;
+    background-color: transparent;
+  }
+
+  .image-overlay:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+  }
 }
 
 .photo-row {

@@ -8,7 +8,8 @@
               <router-link to="/photography/digital/product">
                 <div class="position-relative text-center my-2">
                   <img
-                    style="object-position: 0 -100px"
+                    class="thumb-fix"
+                    style="object-position: 0 50%"
                     src="../assets/img/photography/product/1.jpg"
                     alt="Product"
                   />
@@ -29,7 +30,7 @@
               <router-link to="/photography/digital/gastronomy">
                 <div class="position-relative text-center my-2">
                   <img
-                    style="object-position: 0 -80px"
+                    style="object-position: 0 20%"
                     src="../assets/img/photography/gastronomy/11.jpg"
                     alt="Gastronomy"
                   />
@@ -50,10 +51,9 @@
               <router-link to="/photography/digital/portrait">
                 <div class="position-relative text-center my-2">
                   <img
-                    style="object-position: 0 -80px"
+                    style="object-position: 0 10%"
                     src="../assets/img/photography/portrait/0.jpeg"
                     alt="Portrait"
-                    class="fixmeplease"
                   />
                   <div
                     class="
@@ -136,7 +136,7 @@ a {
 
 .image-overlay {
   background-color: #202020;
-  opacity: 0;
+  opacity: 0.8;
   width: 100%;
   height: 100%;
   transition: 0.2s ease-in-out;
@@ -150,9 +150,15 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.image-overlay:hover {
-  opacity: 0.8;
-  transition: 0.2s ease-in-out;
+@media (hover: hover) {
+  .image-overlay {
+    opacity: 0;
+  }
+
+  .image-overlay:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+  }
 }
 
 .photo-row {
