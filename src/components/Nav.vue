@@ -83,7 +83,7 @@
           <a href="https://www.facebook.com/inchromastudio" target="_blank"
             ><i class="fab fa-facebook-f fa-2x hvr-grow ms-4 me-2"></i
           ></a>
-          <a href="https://www.instagram.com/inchroma.studio/" target="_blank"
+          <a href="https://www.instagram.com/the.inchromastudio/" target="_blank"
             ><i class="fab fa-instagram mx-3 fa-2x hvr-grow mx-2"></i
           ></a>
           <a href="https://www.behance.net/theinchromastudio" target="_blank"
