@@ -1,24 +1,4 @@
-# inchromastudio.pt
+#inChroma Studio
+## inchromastudio.pt
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![prototype](https://mir-s3-cdn-cf.behance.net/project_modules/fs/22c9ba134658443.61d9d0d315976.png)
