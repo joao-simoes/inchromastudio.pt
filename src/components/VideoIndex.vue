@@ -8,7 +8,7 @@
               <router-link to="/video/product">
                 <div class="position-relative text-center my-2">
                   <img
-                    :src="product.hover ? product.gif : product.static"
+                    :src="product.hover ? product.animated : product.static"
                     alt="Product"
                   />
                   <div
@@ -30,7 +30,7 @@
               <router-link to="/video/gastronomy">
                 <div class="position-relative text-center my-2">
                   <img
-                    :src="gastronomy.hover ? gastronomy.gif : gastronomy.static"
+                    :src="gastronomy.hover ? gastronomy.animated : gastronomy.static"
                     alt="Gastronomy"
                   />
                   <div
@@ -54,7 +54,7 @@
                   <img
                     :src="
                       architecture.hover
-                        ? architecture.gif
+                        ? architecture.animated
                         : architecture.static
                     "
                     alt="Architecture"
@@ -78,7 +78,7 @@
               <router-link to="/video/lifestyle"
                 ><div class="position-relative text-center my-2">
                   <img
-                    :src="lifestyle.hover ? lifestyle.gif : lifestyle.static"
+                    :src="lifestyle.hover ? lifestyle.animated : lifestyle.static"
                     alt="Lifestyle"
                   />
                   <div
@@ -100,7 +100,7 @@
               <router-link to="/video/corporate"
                 ><div class="position-relative text-center my-2">
                   <img
-                    :src="corporate.hover ? corporate.gif : corporate.static"
+                    :src="corporate.hover ? corporate.animated : corporate.static"
                     alt="Corporate"
                   />
                   <div
@@ -140,27 +140,27 @@ export default {
       product: {
         hover: false,
         static: require("../assets/video/product_static.png"),
-        gif: require("../assets/video/product.webp"),
+        animated: require("../assets/video/product.webp"),
       },
       gastronomy: {
         hover: false,
         static: require("../assets/video/gastronomy_static.png"),
-        gif: require("../assets/video/gastronomy.webp"),
+        animated: require("../assets/video/gastronomy.webp"),
       },
       architecture: {
         hover: false,
         static: require("../assets/video/architecture_static.png"),
-        gif: require("../assets/video/architecture.webp"),
+        animated: require("../assets/video/architecture.webp"),
       },
       lifestyle: {
         hover: false,
         static: require("../assets/video/lifestyle_static.png"),
-        gif: require("../assets/video/lifestyle.webp"),
+        animated: require("../assets/video/lifestyle.webp"),
       },
       corporate: {
         hover: false,
         static: require("../assets/video/corporate_static.png"),
-        gif: require("../assets/video/corporate.webp"),
+        animated: require("../assets/video/corporate.webp"),
       },
     };
   },
