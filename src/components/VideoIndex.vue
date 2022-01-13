@@ -140,27 +140,27 @@ export default {
       product: {
         hover: false,
         static: require("../assets/video/product_static.png"),
-        gif: require("../assets/video/product.gif"),
+        gif: require("../assets/video/product.webp"),
       },
       gastronomy: {
         hover: false,
         static: require("../assets/video/gastronomy_static.png"),
-        gif: require("../assets/video/gastronomy.gif"),
+        gif: require("../assets/video/gastronomy.webp"),
       },
       architecture: {
         hover: false,
         static: require("../assets/video/architecture_static.png"),
-        gif: require("../assets/video/architecture.gif"),
+        gif: require("../assets/video/architecture.webp"),
       },
       lifestyle: {
         hover: false,
         static: require("../assets/video/lifestyle_static.png"),
-        gif: require("../assets/video/lifestyle.gif"),
+        gif: require("../assets/video/lifestyle.webp"),
       },
       corporate: {
         hover: false,
         static: require("../assets/video/corporate_static.png"),
-        gif: require("../assets/video/corporate.gif"),
+        gif: require("../assets/video/corporate.webp"),
       },
     };
   },
